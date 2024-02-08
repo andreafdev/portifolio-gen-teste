@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(240, 232, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.img1 {
+    width: 100px;
+    height: 100px;
+  }
+
+span {
+    margin-right: 190px;
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 35px;
+    align-items: right;
+  }
+
+nav,
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #5340ff;
+    font-size: 30px;
+}
+
+li {
+    float: left;
+}
+
+li, a {
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    display:flex;
+    color: aliceblue;
+ 
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0px;
+}
+
+p {
+    /* text-align: center; */
+    padding: 10px;
+    
+}
+
+.texto {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    background-color: #f8cd53;
+    border-radius: 20px;
+    text-align:justify;
+
+}
+
+.img2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.paragrafos {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+iframe {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 80%;
+    height: 530px;
+}
+
+.rodape {
+   background-color: #5340ff;
+   margin-top: 50px;
+   
+}
+
+.sociais {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 700px;
+}
+
+.texto-rodape {
+    text-align: center;
+    color: #f8cd53;
+}
+
+
+
+
+/* PÁGINA CONTATO  */
+
+.contato {
+    display: flex;
+    color: rgb(7, 7, 7);
+    margin-top: 55px;
+    justify-content: center;
+
+    
+}
+
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+}
+
+input,
+textarea,
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    padding: 0.6rem 15rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-right: 90px;
+    width: 40%;
+    
+}
+
+input,
+textarea {
+    border: 2px solid rgb(119, 118, 118);
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#5340ff;
+    color:rgb(255, 255, 255) ;
+    font-weight: bold;
+    cursor: pointer;
+    width: 98%;
+    border: 1px solid rgb(197, 193, 193);
+}
+
+
+.campos-form {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.contato-box, #formulario_buscacep {
+     /* border: 1px solid red; */
+     width: 100%;
+
+}
+
+#formulario_buscacep {
+    margin-top: 1rem;
+}
+
+.button-consult {
+    margin-top: 35px;
+}
+
+.endereco {
+    margin-top: 50px;
+}
+
+hr {
+    margin: 1.25rem;
+    
+}

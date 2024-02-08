@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/lara.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+          <img class="img1" src="assets/images/icons8-codificação-laptop-70.png" alt="Logo" />
+          <span>Portfólio da Andrea</span>
+  
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="#perfil">Sobre</a></li>
+            <li><a href="#video">Vídeo</a></li> -->
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+
+
+    <main class="contato">
+        <section class="contato-box">
+                <form>
+                    <h2>Contato</h2>
+
+                    <div class="campos-form">
+                        <label for="nome">Nome:</label>
+                        <input onkeyup="validarNome()" id="nome" name="nome" type="text"
+                            placeholder="Insira o seu nome completo">
+                    </div>
+
+                    <div class="campos-form">
+                        <label for="email">E-mail:</label>
+                        <input onkeyup="validarEmail2()" id="email" name="email" type="text"
+                            placeholder="Insira o seu e-mail">
+                    </div>
+
+                    <div class="campos-form">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea onkeyup="validarMensagem()" id="mensagem" name="mensagem" rows="8"
+                            placeholder="Deixe sua mensagem..."></textarea>
+                    </div>
+
+                    <button type="button" onclick="enviarForm()">
+                        Enviar
+                    </button>
+                </form>
+        </section>
+
+        <section id="formulario_buscacep">
+            <h2>Consultar CEP</h2>
+            <div class="consult-cep">
+                <div>
+                    <label for="cep">CEP:</label>
+                    <input onkeyup="validarCep()" id="cep" name="cep" type="text" placeholder="Digite o número do CEP">
+                    <div id="txtCep">
+                    </div>
+                </div>
+
+                <button class="button-consult" type="button" onclick="consultarCep()">
+                    Consultar
+                </button>
+
+                <hr>
+                <div class="endereco">
+                    <label for="dados">Endereço:</label>
+                    <textarea id="dados" name="dados" rows="7" placeholder="Busca CEP..."></textarea>
+                    <div id="txtCep">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="sociais">
+          <a href="https://www.linkedin.com/in/andrea-furtunato-35b549208/"
+            target="_blank">
+            <img src="assets/images/linkedin.png" alt="Linkedin"  width="60px" height="60px"/>
+          </a>
+
+          <a href="https://github.com/andreafdev" target="_blank">
+            <img src="assets/images/github.png" alt="Github" width="60px" height="60px"/>
+          </a>
+        </div>
+
+
+        <p class="texto-rodape">Desenvolvido por: Andrea Furtunato - 2024 &copy;</p>
+      </footer>
+    </div>
+</body>
+
+</html>
