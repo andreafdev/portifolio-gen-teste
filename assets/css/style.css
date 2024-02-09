@@ -1,16 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
-    background-color: rgb(240, 232, 200);
+    background-color: #fcf1d9;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-    width: 80%;
+    width: 80vw;
     margin: 0 auto;
 }
 
@@ -19,7 +15,6 @@ nav {
     justify-content: space-between;
     height: 100px;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .img1 {
@@ -28,12 +23,11 @@ nav {
   }
 
 span {
-    margin-right: 190px;
-    font-size: 30px;
     color: aliceblue;
     margin-top: 35px;
-    align-items: right;
-  }
+    width: 10rem;
+    margin-right: 650px; 
+ }
 
 nav,
 ul {
@@ -53,12 +47,11 @@ li, a {
     justify-content: space-between;
     padding: 20px;
     display:flex;
-    color: aliceblue;
+    color: #fff;
  
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     padding: 60px 0px;
 }
 
@@ -69,7 +62,6 @@ p {
 }
 
 .texto {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     background-color: #f8cd53;
     border-radius: 20px;
@@ -80,6 +72,7 @@ p {
 .img2 {
     width: 300px;
     height: 300px;
+    padding: 1rem;
     border-radius: 50%;
 }
 
@@ -138,7 +131,7 @@ iframe {
 
 
 label {
-    font-family: Arial, Helvetica, sans-serif;
+
     margin-left: 1rem;
 }
 
